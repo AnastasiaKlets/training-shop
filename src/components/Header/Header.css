@@ -1,0 +1,90 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    height: 66px;
+    align-items: center;
+
+    
+}
+.mainBtn{
+    font-family: Playfair Display SC;
+    font-size: 24px;
+    line-height: 32px;
+    color: #121212;
+}
+.content{
+    display: flex;
+    font-family: Spartan;
+    font-size: 14px;
+    line-height: 16px;
+    color: #121212;
+    
+}
+.mainImg{
+    display: flex;
+}
+.person{
+    display: flex;
+    flex-direction: column;
+    width: 12px;
+}
+.info{
+    margin-right: 32px;
+}
+.line{
+    width: 100%;
+    background: #F8F8F8;
+    height: 2px;
+}
+.topBar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 24px;
+    align-items:center;
+}
+.contInf{
+    display: flex;
+    margin-left: 85px;
+    
+}
+.namber{
+    display: flex;
+    margin-right: 50px;
+    font-family: Spartan;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 12px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.address{
+    display: flex;
+    margin-right: 50px;
+    font-family: Inter;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.timeWork{
+    display: flex;
+    margin-right: 50px;
+    font-family: Spartan;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 12px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.imgSoc{
+    display: flex;
+    margin-right: 85px;
+}
+.contImg{
+    margin-right: 10px;
+}
+.imgSocItem{
+    margin-right: 12px;
+}
