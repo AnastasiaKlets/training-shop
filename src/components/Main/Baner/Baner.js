@@ -1,8 +1,4 @@
 import React from 'react';
-import img1 from "../../../img/img1.svg";
-import img2 from "../../../img/img2.svg";
-import img3 from "../../../img/img3.svg";
-import img4 from "../../../img/img4.svg";
 import './Baner.css';
 
 function Baner(props) {
