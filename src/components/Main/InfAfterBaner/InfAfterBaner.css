@@ -4,8 +4,6 @@
     align-items: center;  
     height: 110px;
     width: 1120px;
-    margin-left: 11%;
-    margin-right: 11%;
 }
 .content{
     display: flex;

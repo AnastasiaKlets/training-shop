@@ -1,8 +1,9 @@
 .nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 66px;
-    align-items: center;    
+    align-items: center;
+    width: 1100px;   
 }
 .mainBtn{
     font-family: Playfair Display SC;
@@ -15,8 +16,7 @@
     font-family: Spartan;
     font-size: 14px;
     line-height: 16px;
-    color: #121212;
-    
+    color: #121212;    
 }
 .mainImg{
     display: flex;
@@ -39,6 +39,8 @@
     justify-content: space-between;
     background-color: black;
     height: 24px;
+    width: 100%;
+   
     align-items:center;
 }
 .contInf{

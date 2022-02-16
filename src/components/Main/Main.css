@@ -1,0 +1,8 @@
+.contenMain{
+    width: 1110px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}

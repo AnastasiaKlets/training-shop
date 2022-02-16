@@ -1,5 +1,6 @@
 import React from 'react';
 import Baner from './Baner/Baner';
+import './Main.css';
 import InfAfterBaner from './InfAfterBaner/InfAfterBaner';
 import WomenPart from './WomenPart/WomenPart';
 import MenPart from './MenPart/MenPart';
@@ -10,9 +11,13 @@ import AnotherInf from './AnotherInf/AnotherInf';
 
 function Main(props) {
     return (
-        <>
-            <Baner/> 
-            <InfAfterBaner/>          
+        <>           
+            <div className='contenMain'>
+                <Baner/> 
+                <InfAfterBaner/>
+                <WomenPart/> 
+            </div>
+                     
 
         </>
     );
