@@ -29,41 +29,36 @@ function Baner(props) {
 							</div>
 						</div>
 					</div>
-					<div className="contentItem small_item_1">
-					
-								<div className="columnLittle">
-									<div className="columnImage">
-										<img src={img2} alt="img2" />
-										<div className="blockLink">
-											<a href="/" className="link">Woman</a>
-										</div>
-									</div>
+
+
+					<div className="contentItem small_item_1">					
+						<div className="columnLittle">
+							<div className="columnImage">
+								<div className="blockLink">
+									<a href="/" className="link">Woman</a>
 								</div>
-								
-							
+							</div>
+						</div>						
 					</div>
-					<div className="contentItem small_item_2">
-						
-								<div className="columnLittle">
-									<div className="columnImage">
-										<img src={img3} alt="img3" />
-										<div className="blockLink">
-											<a href="/" className="link">Men</a>
-										</div>
-									</div>
-								
+
+					<div className="contentItem small_item_2">						
+						<div className="columnLittle">
+							<div className="columnImage">
+								<div className="blockLink">
+									<a href="/" className="link">Men</a>
+								</div>
+							</div>								
 						</div>
 					</div>
+
 					<div className="contentItem avg_item">
-							<div className="middle">
-								<img src={img4} alt="img4" />
-								<div className="blockLink">
-									<a href="/" className="link">Accessories</a>
-								</div>
+						<div className="middle">
+							<div className="blockLink">
+								<a href="/" className="link">Accessories</a>
 							</div>
 						</div>
 					</div>
-				
+				</div>				
 			</section>
 		</div>
     );
