@@ -11,7 +11,8 @@ import AnotherInf from './AnotherInf/AnotherInf';
 function Main(props) {
     return (
         <>
-            <Baner/>           
+            <Baner/> 
+            <InfAfterBaner/>          
 
         </>
     );
